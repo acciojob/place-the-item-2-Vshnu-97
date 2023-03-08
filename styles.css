@@ -1,10 +1,11 @@
-.container{
-    .holder{
-        display: flex;
-        /* if flex wrap is wrap that means allign content will shift in next row if place is not there */
-            /* but if it is nowrap that means it won't change arrow try to adjust in a single row  */
-        flex-wrap: wrap;
-        justify-content: center;
-        /* width: 50px; */
-    }
-    
+.holder {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.item {
+  padding: 10px;
+  margin: 5px;
+  border: 1px solid #ccc;
+}
